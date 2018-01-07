@@ -68,11 +68,6 @@ func main() {
 
 	infof("Create new slack connexion, token: %s\n", botKey.Token)
 	ws, id := slackConnect(botKey.Token)
-	var msg Message
-	msg.Text = "Je suis connecté"
-	msg.Channel = "C8NTUSS9Z"
-	msg.Id = 0
-	postMessage(ws, msg)
 
 	for {
 		// read each incoming message
@@ -86,7 +81,6 @@ func main() {
 			// m.Text
 			quote := m.Text
 			infof("Incoming message %s for me", quote)
-			postMessage(ws, m)
 			go func(m Message) {
 				// fetch answer to the incoming quote
 				dialogFlowResponse := GetResponse(quote, aiKey.Token)
