@@ -1,3 +1,4 @@
 {
-  "token": "SAMPLE"
+  "slack-token": "xoxb-SAMPLE",
+  "dialogflow-token": "123456789"
 }
