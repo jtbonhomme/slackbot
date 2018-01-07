@@ -26,5 +26,9 @@
   version = "1.3.0"
 
 [[constraint]]
-  name = "github.com/nlopes/slack"
-  version = "0.1.0"
+  branch = "master"
+  name = "github.com/mlabouardy/dialogflow-go-client"
+
+[[constraint]]
+  branch = "master"
+  name = "golang.org/x/net"

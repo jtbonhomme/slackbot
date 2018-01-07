@@ -14,12 +14,6 @@
   revision = "84d8aa0a65a597e3e30dddd49addf049693d8a26"
 
 [[projects]]
-  name = "github.com/nlopes/slack"
-  packages = ["."]
-  revision = "c86337c0ef2486a15edd804355d9c73d2f2caed1"
-  version = "v0.1.0"
-
-[[projects]]
   name = "github.com/satori/go.uuid"
   packages = ["."]
   revision = "879c5887cd475cd7864858769793b2ceb0d44feb"
@@ -34,6 +28,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "720b764f2f6a78f2f74b3338f76d397a94ee55f7952e864532a32d52b70514bf"
+  inputs-digest = "d9839c478ed03f2bd990d354b4c80d36b022e67ce0c30082703b864877ccea53"
   solver-name = "gps-cdcl"
   solver-version = 1
